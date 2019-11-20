@@ -6,3 +6,8 @@
 #Function 1
 def PrintOutput(string_to_output):
     print(string_to_output)
+
+def LoadFile(input_string):
+    with open(input_string, 'r') as file:
+        read_file = file.readlines()
+        print(read_file)
