@@ -39,5 +39,8 @@ def ScoreFinder(list_player_names, player_scores, player_name):
             print(f"OUTPUT {name} got a score of {score}")
     if yes == 0:
         print("OUTPUT player not found")
-        
-            
+
+#Function 6
+def Union(list1, list2):
+    union_list = list1 + list2
+    print("OUTPUT", union_list)
