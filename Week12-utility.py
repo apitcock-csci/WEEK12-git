@@ -53,3 +53,15 @@ def Intersection(list1, list2):
             if i == j:
                 occurances.append(i)
     print(f"OUTPUT {occurances}")
+
+#Function 8
+def NotIn(list1, list2):
+    output_list = []
+    for a in list1:
+        count = 0
+        for b in list2:
+            if a == b:
+                 count += 1
+        if count == 0:
+            output_list.append(a)
+    print(f"OUTPUT {output_list}")
