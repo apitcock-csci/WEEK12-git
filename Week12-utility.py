@@ -44,3 +44,12 @@ def ScoreFinder(list_player_names, player_scores, player_name):
 def Union(list1, list2):
     union_list = list1 + list2
     print("OUTPUT", union_list)
+
+#Function 7
+def Intersection(list1, list2):
+    occurances = []
+    for i in list1:
+        for j in list2:
+            if i == j:
+                occurances.append(i)
+    print(f"OUTPUT {occurances}")
