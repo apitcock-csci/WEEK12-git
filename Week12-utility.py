@@ -27,3 +27,17 @@ def FindWordCount(input_list, input_string):
         if i == input_string:
             occurances += 1
     print("OUTPUT", occurances)
+
+#Function 5
+def ScoreFinder(list_player_names, player_scores, player_name):
+    yes = 0
+    for i in range(len(list_player_names)):
+        name = list_player_names[i]
+        if name == player_name:
+            score = player_scores[i]
+            yes += 1
+            print(f"OUTPUT {name} got a score of {score}")
+    if yes == 0:
+        print("OUTPUT player not found")
+        
+            
